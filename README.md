@@ -16,6 +16,7 @@ but you need to go beyond that.
 
 https://convertpedia.com.br/en/math/calculate-factorial/17-factorial.php
 I used the above link when making more tests to find the factorial of other numbers. I also looked at the class slides for more information on bottom-up programming.
+I certify that I have listed all sources used to complete this exercise, including the use of any Large Language Models. All of the work is my own, except where stated otherwise. I am aware that plagiarism carries severe penalties and that if plagiarism is suspected, charges may be filed against me without prior notice.
 
 ## Runtime Analysis
 
