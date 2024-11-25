@@ -7,19 +7,20 @@ function factorial(n) {
   }
   return fac;
 }
-//let test = 10;
+let test = 10;
 //if(factorial(test) === 3628800) {
-//  console.log("true!");
-//}
-//else {
-//  console.log("false...value = " + factorial(test));
-//}
+/*if(e(test) === 2.7182818011463845) {
+  console.log("true!");
+}
+else {
+  console.log("false...value = " + e(test));
+}*/
 
 function e(n) {
   let eNum = 0;
-  let denominator = 0;
   for(let i = 0; i <= n; i++) {
-    eNum += (1/(factorial(n)));
+    //console.log("denominator = " + factorial(i));
+    eNum += (1/(factorial(i)));
   }
   return eNum;
 }
