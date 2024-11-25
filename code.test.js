@@ -9,4 +9,4 @@ assert(factorial(1) === 1);
 assert(e(1) === 2);
 
 assert(factorial(8) === 40320);
-assert(e(8) === 2.71827876984);
+assert(e(8) === 2.71827876984127);
