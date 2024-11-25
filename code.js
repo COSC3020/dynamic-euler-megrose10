@@ -1,22 +1,19 @@
-/*function factorial(n) {
-    if(n === 0) return 1;
-    else return n * factorial(n - 1);
-}
-
-function e(n) {
-    if(n === 0) return 1;
-    else return 1.0 / factorial(n) + e(n - 1);
-}*/
 function factorial(n) {
-  let fac = 0;
-  for(let i = 0; i <= n; i++) {
-    if(i==0) {
-      fac = 1;
-    }
+  let fac = 1;
+  //console.log("n = " + n);
+  for(let i = 1; i <= n; i++) {
+    //console.log("fac = " + fac);
     fac *= i; 
   }
   return fac;
 }
+//let test = 10;
+//if(factorial(test) === 3628800) {
+//  console.log("true!");
+//}
+//else {
+//  console.log("false...value = " + factorial(test));
+//}
 
 function e(n) {
   let denominator = 0;
