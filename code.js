@@ -16,8 +16,10 @@ function factorial(n) {
 //}
 
 function e(n) {
+  let eNum = 0;
   let denominator = 0;
   for(let i = 0; i <= n; i++) {
     eNum += (1/(factorial(n)));
   }
+  return eNum;
 }
