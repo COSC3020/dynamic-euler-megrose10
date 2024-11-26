@@ -18,8 +18,8 @@ else {
 
 function e(n) {
   let eNum = 0;
-  let fac = 1;
   for(let i = 0; i <= n; i++) {
+    let fac = 1;
     if(fac > 0) {
       fac *= i;
     }
