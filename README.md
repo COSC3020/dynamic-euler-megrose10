@@ -22,4 +22,4 @@ I certify that I have listed all sources used to complete this exercise, includi
 
 What is the worst-case big $\Theta$ time complexity of your algorithm?
 
-In this implementation, we find the factorial in the for loop we have implemented, so the $\Theta$ $(n)$, since there is only one for loop. 
+In this implementation, we find the factorial in the for loop we have implemented, so the worst case is $\Theta$ $(n)$, since there is only one for loop. 
