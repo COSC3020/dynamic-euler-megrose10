@@ -22,4 +22,4 @@ I certify that I have listed all sources used to complete this exercise, includi
 
 What is the worst-case big $\Theta$ time complexity of your algorithm?
 
-In this implementation, when the sum of the values to find euler's number, we call factorial to get the denominator. In the e function, we have a for loop adding the $1/n!$ numbers going from 0 to $n$. When we call factorial, there is a for loop calculating the factorial for the iteration we are on which would be $n$. Then in e, we return the value calculated from factorial and add it to the previous numbers and so on, which this for loop would also result in n. So, $n+n$ or $\Theta$ $(2n)$ would be the worst time complexity. 
+In this implementation, we find the factorial in the for loop we have implemented, so the $\Theta$ $(n)$, since there is only one for loop. 
